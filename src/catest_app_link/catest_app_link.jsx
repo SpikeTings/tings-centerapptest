@@ -8,6 +8,9 @@ export default class CATestAppLink extends React.PureComponent {
     };
 
     render() {
+        if (this.props.teamName=='noshow') {
+            return null;
+        }
         return (
             <li className={this.props.active && 'active'}>
                 <a
