@@ -1,0 +1,8 @@
+{
+    "id": "com.spikeassociates.tings-centerapptest",
+    "name": "Center Application and Application List Test ting",
+    "description": "Center application test plugin to use central body hook and application side bar list",
+    "webapp": {
+        "bundle_path": "main.js"
+    }
+}

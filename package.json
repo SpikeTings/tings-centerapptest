@@ -1,0 +1,22 @@
+{
+	"name": "spiketings_centerapptest",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"build": "webpack --mode=none --config webpack.config.js",
+		"mattermost": "cp dist/main.js plugin.json com.spikeassociates.tings-centerapptest && rm tingcenterapptest.tar.gz && tar cvzf tingcenterapptest.tar.gz com.spikeassociates.tings-centerapptest",
+		"bundle": "yarn build && yarn mattermost"
+	},
+	"dependencies": {
+		"@babel/plugin-proposal-class-properties": "^7.7.4",
+		"mattermost-redux": "^5.18.0",
+		"prop-types": "^15.7.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.7.7",
+		"@babel/preset-env": "^7.7.7",
+		"@babel/preset-react": "^7.7.4",
+		"babel-loader": "^8.0.6",
+		"gulp-babel": "^8.0.0-beta.2"
+	}
+}
