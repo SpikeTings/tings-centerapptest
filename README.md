@@ -15,3 +15,8 @@ To test the **AppCenterComponent** this plugin adds a link in the sidebar that c
 
 - {mattermosturl}/{teamname}/channel-apps/{channelname}/catest
 - {mattermosturl}/{teamname}/apps/catest
+
+Here you can see a quick demo:
+
+![mattermost center app demo](MMCenterApp.gif)
+
